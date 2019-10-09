@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-3 p-5"> <!--p is pading all the way round-->
-            <img src="/storage/{{$user->profile->profileImage()}}" class = "rounded-circle w-100">
+            <img src="{{$user->profile->profileImage()}}" class = "rounded-circle w-100">
         </div>
         <div class="col-9 pt-5 pl-5">
             <div class = "d-flex justify-content-between align-items-baseline">
